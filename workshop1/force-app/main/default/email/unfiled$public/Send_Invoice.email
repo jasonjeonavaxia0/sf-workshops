@@ -1,0 +1,8 @@
+{!Invoice__c.ContactName__c}
+
+Pay up b***! 
+This much {!Invoice__c.Total_Amount__c} !!
+
+
+If you got something to say.. Reply back here: 
+claims@3-2jpl7d9ca9mix3medshf091n3woqbppcsc7pe7c6mxz53b605c.6d-osruam.cs73.apex.sandbox.salesforce.com
