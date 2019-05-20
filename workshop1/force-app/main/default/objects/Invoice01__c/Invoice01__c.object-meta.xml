@@ -52,10 +52,10 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Invoice</label>
+    <label>Invoice01</label>
     <nameField>
-        <displayFormat>INV-{00000}</displayFormat>
-        <label>Invoice Name</label>
+        <displayFormat>INV01-{00000}</displayFormat>
+        <label>Invoice01名</label>
         <type>AutoNumber</type>
     </nameField>
     <searchLayouts/>
