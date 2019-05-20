@@ -125,9 +125,9 @@
                     </value>
                 </processMetadataValues>
                 <leftValueReference>myVariable_current.Total_Amount__c</leftValueReference>
-                <operator>EqualTo</operator>
+                <operator>LessThan</operator>
                 <rightValue>
-                    <numberValue>0.0</numberValue>
+                    <numberValue>10000.0</numberValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -249,7 +249,7 @@
             <label>Previously Met - Prev</label>
         </rules>
     </decisions>
-    <interviewLabel>InvoiceProcess-3_InterviewLabel</interviewLabel>
+    <interviewLabel>InvoiceProcess-2_InterviewLabel</interviewLabel>
     <label>InvoiceProcess</label>
     <processMetadataValues>
         <name>ObjectType</name>
