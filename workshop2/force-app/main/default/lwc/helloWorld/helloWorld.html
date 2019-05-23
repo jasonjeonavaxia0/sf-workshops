@@ -1,0 +1,25 @@
+<template>
+    <lightning-card
+            variant="narrow"
+            icon-name="standard:opportunity">
+        <h1 slot="title">Current User Id: {currentUserId}</h1>
+        <h1 class="pad-5">Hello, {world}</h1>
+    </lightning-card>
+    
+    <!-- Base variant: Makes a button look like a link -->
+    <lightning-button variant="brand" 
+                      label="Brand" 
+                      title="Brand action" 
+                      onclick={handleClick} 
+                      class="slds-m-left_x-small"> Click me
+    </lightning-button>
+
+    <template if:true={record}>
+            <lightning-card  title={name}>
+                    <p class="slds-p-horizontal_small">Phone Numnber: {record.fields.Phone.value}
+                    </p>
+                </lightning-card>
+    </template>
+
+
+</template>
