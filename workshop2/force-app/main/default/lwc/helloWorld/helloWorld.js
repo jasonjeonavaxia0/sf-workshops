@@ -25,6 +25,7 @@ export default class HelloWorld extends LightningElement {
     }
 
     handleClick(){
+<<<<<<< HEAD
         this.world = this.toggleBtn? "jason":"world";
         this.toggleBtn = !this.toggleBtn;
     }
@@ -35,3 +36,17 @@ export default class HelloWorld extends LightningElement {
         return this.record.fields.Phone.value;
     }
 }
+=======
+        this.world = this.toggleBtn ? "Woodson!" : "World!";
+        this.toggleBtn = !this.toggleBtn
+    }
+
+    get name(){
+        return "My Account, " + this.record.fields.Name.value;
+    }
+
+    get phone(){
+        return this.record.fields.Phone.value;
+    }
+}
+>>>>>>> upstream/master

@@ -9,7 +9,7 @@
         <developerName>claims</developerName>
         <isActive>true</isActive>
         <localPart>claims</localPart>
-        <runAsUser>test-vvjreixaruaq@example.com</runAsUser>
+        <runAsUser>test-nlvgzhnk2kbk@example.com</runAsUser>
     </emailServicesAddresses>
     <functionInactiveAction>Discard</functionInactiveAction>
     <functionName>claims</functionName>
